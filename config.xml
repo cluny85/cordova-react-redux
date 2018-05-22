@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1000000" id="com.taiste.example" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="1000000" id="com.microblink.blinkid" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Example</name>
     <description>
     Example application.
@@ -13,7 +13,7 @@
     <preference name="target-device" value="universal" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="detect-data-types" value="true" />
-    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-minSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
     <platform name="android">
     </platform>
@@ -56,4 +56,6 @@
             </array>
         </config-file>
     </platform>
+    <plugin name="com.microblink.BlinkIdScanner" spec="~1.5.6" />
+    <engine name="android" spec="^7.1.0" />
 </widget>
